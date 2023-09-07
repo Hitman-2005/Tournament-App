@@ -1,3 +1,5 @@
+using System.Data;
+using System.Data.SQLite;
 using System.Runtime.InteropServices;
 
 namespace Tournament_App
@@ -50,11 +52,11 @@ namespace Tournament_App
         {
             if (show_pass_checkbox.Checked)
             {
-                
+
             }
             else
             {
-                
+
             }
         }
 
@@ -62,8 +64,8 @@ namespace Tournament_App
         {
             AccountModel a = new()
             {
-                Email = email_textbox.Text.ToString().Trim(),
-                Password = email_textbox.Text.ToString().Trim()
+                Email = email_textbox.TextButton,
+                Password = password_textbox.TextButton
             };
 
             SqliteDataAccess.SaveAccount(a);
@@ -88,7 +90,32 @@ namespace Tournament_App
 
         private void cyberButton1_Click(object sender, EventArgs e)
         {
+            if (email_textbox.Text.Trim() == "" && password_textbox.Text.Trim() == "")
+            {
+                MessageBox.Show("Empty Fields, Error");
+            }
+            else
+            {
+                string query = "SELECT * FROM Account WHERE Email = @email AND Password = @pass";
+                SQLiteConnection conn = new SQLiteConnection("Data Source=TourniDB.db;Version=3;");
+                conn.Open();
+                SQLiteCommand cmd = new SQLiteCommand(query, conn);
+                cmd.Parameters.AddWithValue("@email", email_textbox.TextButton);
+                cmd.Parameters.AddWithValue("@pass", password_textbox.TextButton);
+                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
 
+                if (dt.Rows.Count > 0)
+                {
+                    MessageBox.Show("You are logged in", "Login Successfull");
+                }
+                else
+                {
+                    MessageBox.Show("Login Failed", "Error");
+                }
+
+            }
         }
     }
 }
