@@ -50,17 +50,19 @@ namespace Tournament_App
         }
         private void show_pass_checkbox_Load(object sender, EventArgs e)
         {
-            if (show_pass_checkbox.Checked)
+            if (show_pass_checkbox.Checked == true)
             {
-
+                password_textbox.Password = false;
             }
             else
             {
-
+                password_textbox.Password = true;
             }
+
+
         }
 
-        private void register_btn_Click(object sender, EventArgs e)
+        private void register_btn_Click(object sender, EventArgs e) // Registration Part
         {
             AccountModel a = new()
             {
@@ -72,7 +74,7 @@ namespace Tournament_App
             MessageBox.Show("Account have been Registered");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e) // Front Notice Form
         {
             this.mainPanelForm.Controls.Clear();
             frontNotice FrontNotice = new frontNotice() { Dock = DockStyle.Fill, TopLevel = false };
@@ -80,7 +82,7 @@ namespace Tournament_App
             FrontNotice.Show();
         }
 
-        private void button3_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e) // Account List
         {
             this.mainPanelForm.Controls.Clear();
             AccountList accountList = new AccountList() { Dock = DockStyle.Fill, TopLevel = false };
@@ -88,7 +90,7 @@ namespace Tournament_App
             accountList.Show();
         }
 
-        private void cyberButton1_Click(object sender, EventArgs e)
+        private void cyberButton1_Click(object sender, EventArgs e) // Login Button
         {
             if (email_textbox.TextButton.Trim() == "" && password_textbox.TextButton.Trim() == "")
             {

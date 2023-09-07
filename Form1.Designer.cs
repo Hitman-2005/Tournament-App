@@ -236,7 +236,7 @@
             show_pass_checkbox.ColorChecked = Color.FromArgb(29, 200, 238);
             show_pass_checkbox.ColorPen_1 = Color.FromArgb(37, 52, 68);
             show_pass_checkbox.ColorPen_2 = Color.FromArgb(41, 63, 86);
-            show_pass_checkbox.CyberCheckBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Custom;
+            show_pass_checkbox.CyberCheckBoxStyle = ReaLTaiizor.Enum.Cyber.StateStyle.Default;
             show_pass_checkbox.Effect_1_ColorBackground = Color.FromArgb(29, 200, 238);
             show_pass_checkbox.Effect_1_Transparency = 25;
             show_pass_checkbox.Effect_2 = true;
@@ -251,11 +251,11 @@
             show_pass_checkbox.RGB = false;
             show_pass_checkbox.Rounding = true;
             show_pass_checkbox.RoundingInt = 100;
-            show_pass_checkbox.Size = new Size(171, 45);
-            show_pass_checkbox.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.AntiAlias;
+            show_pass_checkbox.Size = new Size(170, 45);
+            show_pass_checkbox.SmoothingMode = System.Drawing.Drawing2D.SmoothingMode.HighQuality;
             show_pass_checkbox.TabIndex = 0;
             show_pass_checkbox.Tag = "Cyber";
-            show_pass_checkbox.TextButton = "Show Password";
+            show_pass_checkbox.TextButton = "CyberCheckBox";
             show_pass_checkbox.TextRenderingHint = System.Drawing.Text.TextRenderingHint.ClearTypeGridFit;
             show_pass_checkbox.Timer_Effect_1 = 1;
             show_pass_checkbox.Timer_RGB = 300;
@@ -279,6 +279,7 @@
             password_textbox.LinearGradientPen = false;
             password_textbox.Location = new Point(2, 147);
             password_textbox.Name = "password_textbox";
+            password_textbox.Password = true;
             password_textbox.PasswordChar = '*';
             password_textbox.PenWidth = 15;
             password_textbox.RGB = true;
