@@ -5,6 +5,7 @@ Made in C#
 
 ## Features
 
+- Register & Login for Local DB
 - Nothing is made for the backend currently
 
 > There is no a big reason or anything behind tourni app it's just that currently I want to make a small tournament app
