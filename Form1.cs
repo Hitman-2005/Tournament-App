@@ -90,7 +90,7 @@ namespace Tournament_App
 
         private void cyberButton1_Click(object sender, EventArgs e)
         {
-            if (email_textbox.Text.Trim() == "" && password_textbox.Text.Trim() == "")
+            if (email_textbox.TextButton.Trim() == "" && password_textbox.TextButton.Trim() == "")
             {
                 MessageBox.Show("Empty Fields, Error");
             }
