@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "aT128BwfQi45+6fMFbPGaYSKz1DwTajKoQ/OiXWfUzC3o/lg7gxIDINxqh0H75DK1LVDma2kqYsYMUm2cZwBdw==",
+  "success": true,
+  "projectFilePath": "E:\\C#\\Tournament App\\Tournament App.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Henthoiba\\.nuget\\packages\\dapper\\2.0.151\\dapper.2.0.151.nupkg.sha512",
+    "C:\\Users\\Henthoiba\\.nuget\\packages\\realtaiizor\\3.7.9.5\\realtaiizor.3.7.9.5.nupkg.sha512",
+    "C:\\Users\\Henthoiba\\.nuget\\packages\\stub.system.data.sqlite.core.netstandard\\1.0.118\\stub.system.data.sqlite.core.netstandard.1.0.118.nupkg.sha512",
+    "C:\\Users\\Henthoiba\\.nuget\\packages\\system.data.sqlite.core\\1.0.118\\system.data.sqlite.core.1.0.118.nupkg.sha512"
+  ],
+  "logs": []
+}

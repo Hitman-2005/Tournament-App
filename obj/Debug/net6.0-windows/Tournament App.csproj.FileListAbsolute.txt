@@ -1,0 +1,32 @@
+E:\C#\Tournament App\bin\Debug\net6.0-windows\Tournament App.exe
+E:\C#\Tournament App\bin\Debug\net6.0-windows\Tournament App.deps.json
+E:\C#\Tournament App\bin\Debug\net6.0-windows\Tournament App.runtimeconfig.json
+E:\C#\Tournament App\bin\Debug\net6.0-windows\Tournament App.dll
+E:\C#\Tournament App\bin\Debug\net6.0-windows\Tournament App.pdb
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament_App.Form1.resources
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.csproj.GenerateResource.cache
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.GeneratedMSBuildEditorConfig.editorconfig
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.AssemblyInfoInputs.cache
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.AssemblyInfo.cs
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.csproj.CoreCompileInputs.cache
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.dll
+E:\C#\Tournament App\obj\Debug\net6.0-windows\refint\Tournament App.dll
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.pdb
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.genruntimeconfig.cache
+E:\C#\Tournament App\obj\Debug\net6.0-windows\ref\Tournament App.dll
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament_App.Properties.Resources.resources
+E:\C#\Tournament App\bin\Debug\net6.0-windows\ReaLTaiizor.dll
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.csproj.AssemblyReference.cache
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament_App.frontNotice.resources
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament App.csproj.CopyComplete
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament_App.homeTournament.resources
+E:\C#\Tournament App\bin\Debug\net6.0-windows\TourniDB.db
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament_App.tournamentList.resources
+E:\C#\Tournament App\bin\Debug\net6.0-windows\Tournament App.dll.config
+E:\C#\Tournament App\bin\Debug\net6.0-windows\Dapper.dll
+E:\C#\Tournament App\bin\Debug\net6.0-windows\System.Data.SQLite.dll
+E:\C#\Tournament App\bin\Debug\net6.0-windows\runtimes\linux-x64\native\SQLite.Interop.dll
+E:\C#\Tournament App\bin\Debug\net6.0-windows\runtimes\osx-x64\native\SQLite.Interop.dll
+E:\C#\Tournament App\bin\Debug\net6.0-windows\runtimes\win-x64\native\SQLite.Interop.dll
+E:\C#\Tournament App\bin\Debug\net6.0-windows\runtimes\win-x86\native\SQLite.Interop.dll
+E:\C#\Tournament App\obj\Debug\net6.0-windows\Tournament_App.AccountList.resources
